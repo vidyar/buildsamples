@@ -12,5 +12,10 @@ namespace NUnitSample
         {
             return string.Format("Hello, {0}", name);
         }
+
+        public string SayGoodbye(string name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

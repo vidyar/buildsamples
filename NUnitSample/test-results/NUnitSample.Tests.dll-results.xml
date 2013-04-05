@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\data\code\qhode.samples\NUnitSample\build\NUnitSample.Tests.dll" total="2" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-04-05" time="18:19:54">
+  <environment nunit-version="2.6.0.12051" clr-version="4.0.30319.18033" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\data\code\qhode.samples\NUnitSample\NUnitSample.Tests" machine-name="LUCID" user="Ragesh" user-domain="LUCID" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\data\code\qhode.samples\NUnitSample\build\NUnitSample.Tests.dll" executed="True" result="Failure" success="False" time="0.108" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnitSample" executed="True" result="Failure" success="False" time="0.082" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.082" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="FooTests" executed="True" result="Failure" success="False" time="0.078" asserts="0">
+                <results>
+                  <test-case name="NUnitSample.Tests.FooTests.CanSayGoodbye" executed="True" result="Error" success="False" time="0.039" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.NotImplementedException : The method or operation is not implemented.]]></message>
+                      <stack-trace><![CDATA[at NUnitSample.Foo.SayGoodbye(String name) in c:\Data\code\qhode.samples\NUnitSample\NUnitSample\Foo.cs:line 18
+at NUnitSample.Tests.FooTests.CanSayGoodbye() in c:\Data\code\qhode.samples\NUnitSample\NUnitSample.Tests\FooTests.cs:line 25
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="NUnitSample.Tests.FooTests.CanSayHello" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

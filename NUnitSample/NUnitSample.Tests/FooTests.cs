@@ -18,5 +18,13 @@ namespace NUnitSample.Tests
             Assert.AreEqual("Hello, World!", result);
         }
 
+        [Test]
+        public void CanSayGoodbye()
+        {
+            Foo foo = new Foo();
+            var result = foo.SayGoodbye("Ragesh");
+            Assert.AreEqual("Goodbye, Ragesh", result);
+        }
+
     }
 }
