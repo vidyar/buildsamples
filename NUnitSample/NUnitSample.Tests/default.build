@@ -4,7 +4,7 @@
     <csc target="library" output="..\build\NUnitSample.Tests.dll" debug="Full">
       <references>
         <include name="..\build\NUnitSample.dll" />
-        <include name="..\packages\NUnit.2.6.2\lib\nunit.framework.dll"/>
+        <include name="..\build-dependencies\nunit.framework.dll"/>
       </references>
       <sources>
         <include name="**/*.cs"/>
@@ -17,7 +17,7 @@
       <formatter type="Xml" usefile="true" extension=".xml" outputdir="..\test-results" />
       <test assemblyname="..\build\NUnitSample.Tests.dll" appconfig="nunit.config" >
         <references>
-          <include name="..\packages\NUnit.2.6.2\lib\nunit.framework.dll"/>
+          <include name="..\build-dependencies\nunit.framework.dll"/>
         </references>
       </test>
     </nunit2>
