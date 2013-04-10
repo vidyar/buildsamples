@@ -10,9 +10,15 @@
         <include name="**/*.cs"/>
       </sources>
     </csc>
+    <copy todir="..\build\">
+      <fileset>
+        <include name="..\build\NUnitSample.dll" />
+        <include name="..\build-dependencies\nunit.framework.dll"/>
+      </fileset>
+    </copy>
   </target>
 
-  <target name="test">
+  <target name="test" depends="build">
     <nunit2>
       <formatter type="Xml" usefile="true" extension=".xml" outputdir="..\test-results" />
       <test assemblyname="..\build\NUnitSample.Tests.dll" appconfig="nunit.config" >
@@ -21,5 +27,10 @@
         </references>
       </test>
     </nunit2>
+  </target>
+
+  <target name="coverage" depends="build">
+    <exec program="..\coverage.cmd" workingdir="..\">
+    </exec>
   </target>
 </project>
