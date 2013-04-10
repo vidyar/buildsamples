@@ -1,3 +1,1 @@
-rem OpenCover.Console.exe -register:user -target:"c:\deploy\nant-0.92\bin\nant.exe" -targetargs:"-buildfile:NUnitSample.Tests\default.build test" -filter:"+[*]*" -output:build\output.xml
-
-OpenCover.Console.exe -register:user -target:"nunitwrapper.cmd" -filter:"+[*]*" -output:build\coverage-results.xml
+packages\OpenCover.4.5.1403\OpenCover.Console.exe -register:user -target:"nunitwrapper.cmd" -filter:"+[*]*" -output:build\coverage-results.xml
