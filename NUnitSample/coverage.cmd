@@ -1,1 +1,1 @@
-packages\OpenCover.4.5.1403\OpenCover.Console.exe -register:user -target:"nunitwrapper.cmd" -filter:"+[*]*" -output:build\coverage-results.xml -log:All
+packages\OpenCover.4.5.1403\OpenCover.Console.exe -register -target:"nunitwrapper.cmd" -filter:"+[*]*" -output:build\coverage-results.xml -log:All
