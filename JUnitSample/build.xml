@@ -10,9 +10,9 @@
   <property name="dist"  location="dist"/>
   <property name="lib"  location="lib"/>
   <property name="res"  location="res"/>
-  <property name="reports" location="qhode"/>
-  <property name="test_reports" location="qhode/testresults" />
-  <property name="coverage_reports" location="qhode/codecoverage" />
+  <property name="reports" location="../qhode"/>
+  <property name="test_reports" location="../qhode/testresults" />
+  <property name="coverage_reports" location="../qhode/codecoverage" />
   
   <!-- the names of various distributable files -->
   <property name="jar_name" value="${project_name}.jar"/>
