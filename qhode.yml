@@ -1,7 +1,5 @@
 python:
   - "2.7"
 language: python
-script: coverage xml python/sample.py
-after_script: 
-  - mkdir -p qhode/codecoverage
-  - cp python/coverage.xml -o qhode/codecoverage/coverage.xml
+before_script: mkdir -p qhode/codecoverage
+script: coverage xml -o qhode/codecoverage/coverage.xml python/sample.py
