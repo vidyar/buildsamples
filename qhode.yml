@@ -4,4 +4,4 @@ language: python
 script: coverage xml python/sample.py
 after_script: 
   - mkdir -p qhode/codecoverage
-  - cp python/coverage.xml qhode/codecoverage
+  - cp python/coverage.xml -o qhode/codecoverage/coverage.xml
