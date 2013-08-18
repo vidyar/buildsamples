@@ -2,6 +2,6 @@ node_js:
   - "0.10"
 language: node_js
 before_script: mkdir -p qhode/codecoverage
-script: 
+after_script: 
   - istanbul cover ./node_modules/.bin/_mocha -- -u tdd 
   - istanbul report cobertura --dir ./qhode/codecoverage/
