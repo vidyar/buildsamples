@@ -10,6 +10,7 @@
     "test": "make test"
   },
   "devDependencies": {
-    "mocha": "1.12.x"
+    "mocha": "1.12.x",
+    "istanbul": "0.1.x" 
   }
 }
