@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-sample",
+  "version": "0.0.1",
+  "description": "A sample project for NodeJS",
+  "keywords": ["nodejs", "sample"],
+  "author": "Ragesh Krishna <rageshk@qhode.com>",
+  "main": "index",
+  "engines": { "node": ">= 0.10.x" },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "1.12.x"
+  }
+}

@@ -114,3 +114,5 @@ UpgradeLog*.XML
 *.orig
 
 qhode/*
+node_modules
+nodejs/coverage
