@@ -3,5 +3,5 @@ node_js:
 language: node_js
 before_script: mkdir -p qhode/codecoverage
 after_script: 
-  - istanbul cover ./node_modules/.bin/_mocha -- -u tdd 
-  - istanbul report cobertura --dir ./qhode/codecoverage/
+  - ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u tdd 
+  - ./node_modules/.bin/istanbul report cobertura --dir ./qhode/codecoverage/
