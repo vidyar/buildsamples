@@ -112,3 +112,5 @@ UpgradeLog*.XML
 
 #Ignore all .orig files created during merge conflicts
 *.orig
+
+qhode/*
