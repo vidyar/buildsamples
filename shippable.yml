@@ -3,3 +3,4 @@ rvm:
   - 1.9.2
 env:
   - CI_REPORTS=qhode/testresults COVERAGE_REPORTS=qhode/codecoverage
+email : false
